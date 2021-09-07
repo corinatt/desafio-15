@@ -1,0 +1,24 @@
+@import "../base/variables";
+@import "../base/listas";
+
+footer {
+  background-color: #cdd6d6;
+  width: 100%;
+  padding-top: 40px;
+
+  #contacto {
+    text-align: center;
+  }
+
+  .social {
+    padding-right: 8px;
+    ul {
+      list-style: none;
+      display: flex;
+      justify-content: flex-end;
+    }
+  }
+  p {
+    color: nth($colores, 1);
+  }
+}
