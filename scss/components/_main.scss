@@ -6,18 +6,27 @@ main {
     display: flex;
     justify-content: center;
     position: relative;
-    top: 100px;
+    
 
-    h1 {
-      color: nth($colores, 2);
-      font-family: $font-h1;
-      letter-spacing: $letter-spacing-titulos;
-      font-size: $font-size-h1;
-      line-height: 50px;
-      text-align: center;
-      text-transform: uppercase;
-      padding: 0px 5px;
-    }
+                h1 {
+                  color: nth($colores, 2);
+                  font-family: $font-h1;
+                  letter-spacing: $letter-spacing-titulos;
+                  font-size: $font-size-h1;
+                  line-height: 50px;
+                  text-align: center;
+                  text-transform: uppercase;
+                  padding: 50px;
+                }
+  }
+
+  .parrafo-h1{
+    background-color: nth($colores, 5 );
+    text-align: center;
+    font-size: $font-size-subtitulos;
+    font-family: $font-h1;
+    
+    
   }
 
   h1 {

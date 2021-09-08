@@ -9,37 +9,42 @@ main .titulo-index {
   display: flex;
   justify-content: center;
   position: relative;
-  top: 100px;
 }
 main .titulo-index h1 {
   color: white;
   font-family: "roboto";
   letter-spacing: 5px;
-  font-size: 30px;
+  font-size: 50px;
   line-height: 50px;
   text-align: center;
   text-transform: uppercase;
-  padding: 0px 5px;
+  padding: 50px;
+}
+main .parrafo-h1 {
+  background-color: #0000005c;
+  text-align: center;
+  font-size: 30px;
+  font-family: "roboto";
 }
 main h1 {
   color: white;
   font-family: "roboto";
   letter-spacing: 5px;
-  font-size: 30px;
+  font-size: 50px;
   line-height: 6;
 }
 main .main-h2 {
   color: white;
   font-family: "Palette Mosaic, cursive; Sans Pro, sans-serif;Teko";
   letter-spacing: 5px;
-  font-size: 50px;
+  font-size: 40px;
   line-height: 3;
   text-align: center;
 }
 main .titulo-contacto {
   color: #d68dbe;
   background-color: #857f7f;
-  font-size: 50px;
+  font-size: 40px;
   font-family: "Palette Mosaic, cursive; Sans Pro, sans-serif;Teko";
   letter-spacing: 5px;
   text-align: center;
