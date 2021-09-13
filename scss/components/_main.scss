@@ -2,12 +2,18 @@
 @import "../base/listas";
 
 main {
+  .portada{
+    display: flex;
+    justify-content: center;
+    max-width: 100%;
+    height: auto;
+            
+  }
   .titulo-index {
     display: flex;
     justify-content: center;
     position: relative;
     
-
                 h1 {
                   color: nth($colores, 2);
                   font-family: $font-h1;
